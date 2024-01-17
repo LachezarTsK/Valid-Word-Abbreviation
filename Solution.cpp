@@ -4,6 +4,7 @@
 using namespace std;
 
 class Solution {
+    
     int indexWord = 0;
     int indexAbbreviation = 0;
 
