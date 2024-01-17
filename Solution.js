@@ -84,7 +84,7 @@ function isLetter(character) {
  * @return {boolean}
  */
 function isDigit(character) {
-    // since the check is only for one character /^\d/i will work as well
-    // but for the sake of completeness /^\d+$/i is applied
+    // since the check is only for one character /^\d/ will work as well
+    // but for the sake of completeness /^\d+$/ is applied
     return /^\d+$/.test(character);
 }
